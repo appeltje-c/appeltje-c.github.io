@@ -1,0 +1,8 @@
+{
+  "label": "Web",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "All about Browser App development"
+  }
+}
