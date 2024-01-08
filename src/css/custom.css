@@ -17,6 +17,10 @@
   --ifm-color-primary-lightest: #e0f3fa;
 
   --ifm-code-font-size: 95%;
+
+  --aa-primary-color-rgb: rgb(41, 169, 220) !important;
+  --aa-muted-color-rgb: rgb(41, 169, 220) !important;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -31,6 +35,10 @@
   --ifm-color-primary-light: #4db7e1;
   --ifm-color-primary-lighter: #7dcbea;
   --ifm-color-primary-lightest: #e0f3fa;
+
+  --aa-input-border-color-rgb: unset !important;
+  --aa-primary-color-rgb: rgb(41, 169, 220) !important;
+  --aa-muted-color-rgb: rgb(41, 169, 220) !important;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
