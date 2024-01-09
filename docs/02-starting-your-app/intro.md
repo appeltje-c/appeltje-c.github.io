@@ -70,41 +70,12 @@ Luckily we can avoid that!
 
 While our choice for React does not bring us any build tools, it does not mean we have to go through the pain of setting up our own build environment. We are going to use [create-react-app](https://create-react-app.dev) which offers a modern web app development setup with pre-configured tools ready to use.
 
-It bundles a set of 'best practice' configured build tools nicely tucked away 'under-the-hood' in one package which means we have to do less initial learning and cut down drastically on our project dependencies and setup of configuration files.
+It bundles a set of 'best practice' configured build tools nicely tucked away in one package which means we have to do less initial learning and cut down drastically on our project dependencies and setup of configuration files.
 
+This might seem we can end up locked-in with this as well if it were not that we can eject out from 'under-the-hood' with one command should we ever need to edit the configuration files ourselves directly o change any of the build tools. Ejecting can only be done once, from that point forward you will have to maintain the build tools yourself. Make sure you have string arguments for ejecting, the manual maintenance of the build process is a significant effort.
 
-we can eject out from under the hood with one command should we ever need to edit the configuration files ourselves directly.
+To get a feel for the difference you can compare this [freshly created](https://github.com/appeltje-c/starter-app/tree/02-starting-your-app) app against [an ejected app](https://github.com/appeltje-c/starter-app/tree/02-starting-you-app-ejected).
 
+In the ejected app a config and script folder are added containing the configuration of the build tools and build scripts. The difference in the package.json will tell you which dependencies were added that normally stay managed for you without ejecting.
 
-
-
-
-
-
-
-add ejected example
-
-
-
-### Typescript
-
-## User Experience
-
-
-### Material UI
-
-https://m3.material.io/develop/web
-
-https://mui.com/material-ui/
-
-
-
-
-## Initialize Git Repo
-
-To keep track of the changes to your app while you are adding new features it's common to use a source repository. We are going to make use of git, a powerful versioning tool created by Linus Torvalds the creator of Linux.
-
-If you are not familiar with git I suggest to catch-up with it by reading the docs [here](https://git-scm.com/docs/gittutorial)
-
-
-
+We covered some fundamental initial questions and it is time for the fun part, let's create our app.
