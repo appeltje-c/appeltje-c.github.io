@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[491],{5206:t=>{t.exports=JSON.parse('{"title":"Starting your app","slug":"/category/starting-your-app","permalink":"/category/starting-your-app","navigation":{"previous":{"title":"Hello \ud83d\udc4b\ud83c\udffd","permalink":"/"},"next":{"title":"Context","permalink":"/starting-your-app/intro"}}}')}}]);
