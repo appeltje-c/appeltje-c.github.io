@@ -27,8 +27,8 @@ Prior knowledge is expected in the form of command line use, basic javascript un
 
 Each topic will have a "Get the hands dirty" section for those who can do without context and lets you jump straight into writing code.
 
-## Repo's & sandboxes
+## Repos
 
-The result of these docs can be found in the (react) "starter-app" and (node) "starter-api" repo's where they might serve you as a good starting point for building a web app and rest api's.
+The result of these docs can be found in the (react) "starter-app" and (node) "starter-api" repos where they might serve you as a good starting point for building a web app and rest api's.
 
 You can find the repos [here](https://github.com/appeltje-c?tab=repositories) together with any example repo's created along the way.

@@ -72,7 +72,7 @@ While our choice for React does not bring us any build tools, it does not mean w
 
 It bundles a set of 'best practice' configured build tools nicely tucked away in one package which means we have to do less initial learning and cut down drastically on our project dependencies and setup of configuration files.
 
-This might seem we can end up locked-in with this as well if it were not that we can eject out from 'under-the-hood' with one command should we ever need to edit the configuration files ourselves directly o change any of the build tools. Ejecting can only be done once, from that point forward you will have to maintain the build tools yourself. Make sure you have string arguments for ejecting, the manual maintenance of the build process is a significant effort.
+This might seem we can end up locked-in with this as well if it were not that we can eject out from 'under-the-hood' with one command should we ever need to edit the configuration files ourselves directly or replace any of the build tools. Ejecting can only be done once, from that point forward you will have to maintain the build tools yourself. Make sure you have strong arguments for ejecting, the manual maintenance of the build process is a significant effort.
 
 To get a feel for the difference you can compare this [freshly created](https://github.com/appeltje-c/starter-app/tree/02-starting-your-app) app against [an ejected app](https://github.com/appeltje-c/starter-app/tree/02-starting-you-app-ejected).
 
