@@ -25,7 +25,7 @@ Each topic can be explored on its own although there might be references to earl
 
 Prior knowledge is expected in the form of command line use, basic javascript understanding and common client/server concepts.
 
-Each topic will have a TL;DR section for those who can do without context and lets you jump straight into executing commands or writing code.
+Each topic will have a "Get the hands dirty" section for those who can do without context and lets you jump straight into writing code.
 
 ## Repo's & sandboxes
 
