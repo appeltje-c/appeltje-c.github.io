@@ -36,7 +36,7 @@ cd starter-app
 yarn start
 ```
 
-And visit [http://localhost:3000](http://localhost:3000) in your browser and behold
+Visit [http://localhost:3000](http://localhost:3000) in your browser and behold
 your React App! 🚀
 
 import ReactApp from '../../static/img/02-starting-your-app/react-app.png';
