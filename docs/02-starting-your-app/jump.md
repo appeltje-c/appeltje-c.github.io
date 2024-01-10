@@ -46,7 +46,8 @@ import ReactApp from '../../static/img/02-starting-your-app/react-app.png';
  alt="project structure"
  width="400"/>
 
-This was very short, it is going to get better, promised! Keep reading.
+<br/><br/>
+That was short and sweet.
 
 ## Typescript
 
