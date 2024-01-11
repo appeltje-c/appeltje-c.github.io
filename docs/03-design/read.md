@@ -51,6 +51,8 @@ and imagery.
 The design system provides the structure to create intentional designs with interaction
 best practices, responsive layouts and an awesome look & feel.
 
+## Material UI
+
 As Google Material Design itself is not suitable to apply in a React app as-is,
 we make use of a library that implements the Material design in React components
 called [Material UI](https://mui.com/material-ui)
