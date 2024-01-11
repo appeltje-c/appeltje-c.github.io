@@ -33,7 +33,7 @@ topics.
 Prior knowledge is expected in the form of the use of command line tools like git,
 basic javascript, html and css understanding and common client/server concepts.
 
-Each topic will have a "Jump in" section for those who can do without context and
+Each topic will have a "Code" section for those who can do without reading and
 lets you jump straight into writing code.
 
 ## Code

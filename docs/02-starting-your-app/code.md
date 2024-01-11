@@ -2,7 +2,11 @@
 sidebar_position: 2
 ---
 
-# Jump in
+# Code
+
+:::info
+The branch for this chapter can be found [here](https://github.com/appeltje-c/starter-app/tree/02-starting-your-app)
+:::
 
 To manage the dependencies and build process of your app you can either use yarn
 or npm. There used to be a significant difference in performance and security

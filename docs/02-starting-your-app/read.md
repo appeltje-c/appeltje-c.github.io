@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Context
+# Read
 
 > written by [Martijn Benjamin](https://www.linkedin.com/in/martijn-benjamin/) ([appeltje-c](https://github.com/appeltje-c))
 
