@@ -4,9 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Appeltje-C',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
-
+  tagline: 'Open Source is cool',
+  
   // Set the production url of your site here
   url: 'https://appeltje-c.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -53,7 +52,13 @@ const config: Config = {
   ],
 
   plugins: [
-
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-6P1FC1HQPQ',
+        anonymizeIP: true,
+      },
+    ],
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {

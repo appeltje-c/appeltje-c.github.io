@@ -6,8 +6,8 @@ sidebar_position: 1
 
 > written by [Martijn Benjamin](https://www.linkedin.com/in/martijn-benjamin/) ([appeltje-c](https://github.com/appeltje-c))
 
-Having a consistent user interface providing a good experience is essential if
-you want your users to enjoy using your app. Making controls and layout intuitive,
+Having a consistent user interface design providing a good experience is essential
+if you want your users to enjoy using your app. Making controls and layout intuitive,
 attractive and predictable helps in the adoption of your app. A user does not
 want to study your app, they want to use it.
 
@@ -21,7 +21,7 @@ improvements that lift the UX of your app to new heights.
 
 Examples of these projects are [Apple Human Interface](https://developer.apple.com/design/)
 Guidelines, [Microsoft fluent](https://fluent2.microsoft.design/),
-[Atlassian](https://atlassian.design/) and [Google's Material](https://m3.material.io/)
+[Atlassian](https://atlassian.design/) and [Google Material](https://m3.material.io/)
 Design Systems.
 
 As with most of our App development choices there is something to say for each of
@@ -31,10 +31,10 @@ each of them gives you a free box of knowledge delivered by the best UX designer
 on the planet.
 
 In our app we will be using the Google Design System.
-Read [this to the point blog post](https://www.animaapp.com/blog/industry/what-is-material-design-and-why-should-you-use-it/)
+Read [this to-the-point blog post](https://www.animaapp.com/blog/industry/what-is-material-design-and-why-should-you-use-it/)
 for more context.
 
-For ease of following the chapters and their code I recommend you to follow along
+For ease of following the chapters and their code in these docs I recommend you to follow along
 with this choice although you are absolutely free to choose any of the other
 design systems!
 
