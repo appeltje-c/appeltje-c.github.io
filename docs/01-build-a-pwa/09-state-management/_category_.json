@@ -1,9 +1,8 @@
 {
-  "position": 3,
-  "label": "Design",
+  "label": "State Management",
   "collapsible": true,
   "link": {
     "type": "generated-index",
-    "title": "Design"
+    "title": "State Management"
   }
 }

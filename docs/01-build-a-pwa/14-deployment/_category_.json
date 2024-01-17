@@ -1,0 +1,8 @@
+{
+  "label": "Deployment",
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Deployment"
+  }
+}

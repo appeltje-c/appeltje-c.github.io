@@ -57,7 +57,7 @@ As Google Material Design itself is not suitable to apply in a React app as-is,
 we make use of a library that implements the Material design in React components
 called [Material UI](https://mui.com/material-ui)
 
-import MaterialUI from '../../static/img/03-design/material-ui.png';
+import MaterialUI from '../../../static/img/03-design/material-ui.png';
 
 <img
  src={MaterialUI}

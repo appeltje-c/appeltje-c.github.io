@@ -43,7 +43,7 @@ yarn start
 Visit [http://localhost:3000](http://localhost:3000) in your browser and behold
 your React App! 🚀
 
-import ReactApp from '../../static/img/02-starting-your-app/react-app.png';
+import ReactApp from '../../../static/img/02-starting-your-app/react-app.png';
 
 <img
  src={ReactApp}
@@ -84,7 +84,7 @@ a running App written in Javascript or Typescript.
 Lets examine what was created for us. Open the project folder "starter-app" in
 your IDE. I use VSCode.
 
-import ProjectStructure from '../../static/img/02-starting-your-app/project-structure.png';
+import ProjectStructure from '../../../static/img/02-starting-your-app/project-structure.png';
 
 <img
  src={ProjectStructure}
