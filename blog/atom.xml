@@ -6,7 +6,6 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://appeltje-c.github.io/blog"/>
     <subtitle>Appeltje-C Blog</subtitle>
-    <icon>https://appeltje-c.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[soon]]></title>
         <id>https://appeltje-c.github.io/blog/2024/01/09/soon</id>

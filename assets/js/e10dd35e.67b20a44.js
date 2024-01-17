@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[9437],{1772:e=>{e.exports=JSON.parse('{"title":"Error Handling","slug":"/category/error-handling","permalink":"/category/error-handling","navigation":{"previous":{"title":"Code","permalink":"/build-a-pwa/design/code"},"next":{"title":"Read","permalink":"/build-a-pwa/error-handling/read"}}}')}}]);

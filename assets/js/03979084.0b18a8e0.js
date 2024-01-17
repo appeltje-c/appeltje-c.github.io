@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[416],{2275:e=>{e.exports=JSON.parse('{"title":"Web Graphics","slug":"/category/web-graphics","permalink":"/category/web-graphics","navigation":{"previous":{"title":"Intro","permalink":"/restful-api/intro"},"next":{"title":"Intro","permalink":"/web-graphics/intro"}}}')}}]);

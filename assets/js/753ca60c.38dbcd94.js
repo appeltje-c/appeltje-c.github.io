@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[7893],{3429:e=>{e.exports=JSON.parse('{"title":"State Management","slug":"/category/state-management","permalink":"/category/state-management","navigation":{"previous":{"title":"Code","permalink":"/build-a-pwa/fetching-data/code"},"next":{"title":"Read","permalink":"/build-a-pwa/state-management/read"}}}')}}]);

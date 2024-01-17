@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[4982],{3336:e=>{e.exports=JSON.parse('{"title":"Fetching Data","slug":"/category/fetching-data","permalink":"/category/fetching-data","navigation":{"previous":{"title":"Code","permalink":"/build-a-pwa/secure-local-storage/code"},"next":{"title":"Read","permalink":"/build-a-pwa/fetching-data/read"}}}')}}]);

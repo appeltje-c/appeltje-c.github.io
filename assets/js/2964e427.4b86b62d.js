@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[1133],{5477:e=>{e.exports=JSON.parse('{"title":"Build a PWA","slug":"/category/build-a-pwa","permalink":"/category/build-a-pwa","navigation":{"previous":{"title":"Hello \ud83d\udc4b\ud83c\udffd","permalink":"/"},"next":{"title":"Intro","permalink":"/build-a-pwa/intro"}}}')}}]);
