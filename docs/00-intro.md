@@ -27,9 +27,9 @@ Happy coding 💙
 
 > Learn how you can build a Rest API that will help you build feature rich Apps [> Get Started](/restful-api/intro)
 
-#### Web Graphics
+### [Web Graphics](/web-graphics/intro)
 
-> A study into the capabilities of Graphics in modern browsers
+> A study into the capabilities of Graphics in modern browsers [> Get Started](/web-graphics/intro)
 
 ## Code
 
