@@ -101,7 +101,7 @@ The aim of these components is to be reusable throughout your App. In practice t
 button with a general use case, we add it to the components folder and import it throughout the code where needed. 
 
 Focus on reuse of your code is an effort that brings major improvements towards consistency of interaction and 
-look & feel of your App. It forces you to think well about the design of your components which helps you create more 
+look & feel of your App. And it forces you to think well about the design of your components which helps you create more 
 simplified and logical components which in turn helps maintainability and testability. The more you can reuse your code 
 the more you downsize your codebase.
 
@@ -109,8 +109,8 @@ the more you downsize your codebase.
     
 In the ```features``` folder we add the features of our App organised in sub folders like for example ```user``` 
 or ```profile```. In general these features will contain all functionality needed for the feature to work. 
-Think of any secondary routing through pages/screens to collect input and state management, the fetching and processing 
-of data.
+Think of any secondary routing through additional screens to collect input and state management; the fetching and 
+processing of data.
 
 Some examples of features you would find in the ```user``` features sub folder are 
 ```javascript
