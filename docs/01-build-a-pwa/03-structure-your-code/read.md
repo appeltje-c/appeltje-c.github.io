@@ -132,17 +132,35 @@ you can peacefully leave this out. Be reminded though that internationalization 
 App can be a major pain.
 
 ### screens
-    - Login.tsx
-    - Main.tsx
-    - Register.tsx
+
+In the ```screens``` folder we organise the 'main' screens our users will request. These screens form the overall 
+entry points and are navigated to directly from anywhere in the App. Examples of screens are e.g. a Settings 
+or Profile screen. 
+
+The ```screen``` naming is deliberate to make a difference in understanding with web pages since we
+aim at developing a mobile application instead of a website.
+
+Ideally these screens follow the same overall structure using header, content, side menu and footer components which 
+provides a consistent layout and structured navigation. These screens give the user access to the features found 
+in the ```features``` folder. 
+
+An important part of your App is the base structure which the screens will adhere to. We discuss this Grid structure in 
+the Design section.  
 
 ### styles
-    - AppStyles.tsx
+
+In the ```styles``` folder we will keep the stylesheets and related theming code. We discuss setting up the styles and 
+theme in detail in the Design section.  
 
 ### types
-    - AppTypes.ts
+
+Since we are working with Typescript we have to define all types in our data structure which we will keep in the 
+```types``` folder.
 
 ### utils
 
+In the good old ```utils``` folder we place the reusable code that does not belong to any of the designated folders. 
+This is not a carte blanche for code dumping :D
 
+Be critical about what you place here!
 
