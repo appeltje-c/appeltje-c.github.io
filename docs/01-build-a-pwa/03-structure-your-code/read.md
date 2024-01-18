@@ -98,7 +98,7 @@ They do not differ in functionality and both are (still) supported although Clas
 Functional components are way cleaner and less complex than Class components. In short; we use Functional components.
 
 The aim of these components is to be reusable throughout your App. In practice this means that when you e.g. define a 
-button with a specific use case, we add it to the components folder and import it throughout the code where needed. 
+button with a general use case, we add it to the components folder and import it throughout the code where needed. 
 
 Focus on reuse of your code is an effort that brings major improvements towards consistency of interaction and 
 look & feel of your App. It forces you to think well about the design of your components which helps you create more 
@@ -162,5 +162,4 @@ Since we are working with Typescript we have to define all types in our data str
 In the good old ```utils``` folder we place the reusable code that does not belong to any of the designated folders. 
 This is not a carte blanche for code dumping :D
 
-Be critical about what you place here!
-
+Let's implement this!
