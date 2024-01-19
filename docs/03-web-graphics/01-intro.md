@@ -6,37 +6,12 @@ sidebar_position: 1
 
 > written by [Martijn Benjamin](https://www.linkedin.com/in/martijn-benjamin/) ([appeltje-c](https://github.com/appeltje-c))
 
+Deciding to digg in and find ways to an understanding of 3D graphics on the web triggers the urge to completely peel the 
+3D onion. What we see on a screen spinning, moving and looking so real is the end result of many steps taken. To 
+understand 3D is to understand each of these steps.
 
+To be able to utilize the tools at hand you need to know how they were built and operate themselves. Knowing how things 
+work under-the-hood might save you when running into complexity, which mostly bites you in the ass when you least expect 
+it.
 
-
-Blender
-https://www.blender.org/
-
-glTF
-https://github.com/KhronosGroup/glTF-Tutorials/blob/master/gltfTutorial/README.md
-
-AssemblyScript
-https://www.assemblyscript.org/
-
-GLTF JSX
-https://github.com/pmndrs/gltfjsx
-
-Three.js
-https://threejs.org/
-
-React Three Fiber
-https://github.com/pmndrs/react-three-fiber
-
-OpenCascade.js
-https://ocjs.org/
-
-WASM
-https://webassembly.org/
-
-WebGL
-https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
-https://webglfundamentals.org/
-
-
-Ready Player Me
-https://readyplayer.me/hub/avatars
+In these docs it is about learning by doing from the onions' jacket to the core.
