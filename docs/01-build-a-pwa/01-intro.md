@@ -6,8 +6,6 @@ sidebar_position: 1
 
 > written by [Martijn Benjamin](https://www.linkedin.com/in/martijn-benjamin/) ([appeltje-c](https://github.com/appeltje-c))
 
-## What's in the box
-
 In these docs I am taking you through the steps of making a 
 [Progressive Web Application](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) from scratch touching 
 the relevant topics in the order of how they more or less appear when building such apps.
