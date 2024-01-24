@@ -1,8 +1,8 @@
 {
-  "label": "Connectivity",
+  "label": "Webassembly",
   "collapsible": true,
   "link": {
     "type": "generated-index",
-    "title": "Connectivity"
+    "title": "Webassembly"
   }
 }

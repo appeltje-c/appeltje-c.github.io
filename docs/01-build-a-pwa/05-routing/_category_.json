@@ -1,8 +1,8 @@
 {
-  "label": "Connectivity",
+  "label": "Routing",
   "collapsible": true,
   "link": {
     "type": "generated-index",
-    "title": "Connectivity"
+    "title": "Routing"
   }
 }

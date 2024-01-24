@@ -13,7 +13,7 @@ The branch for this chapter can be found [here](https://github.com/appeltje-c/st
 Let's start with creating the folders. Change into the src folder in your terminal and run this to create the folders
 
 ```shell
-mkdir assets assets/fonts assets/images
+mkdir assets assets/images
 
 mkdir components features language screens styles types utils 
 ```
@@ -70,14 +70,25 @@ The two packages we use for this are [react-app-rewired](https://github.com/tima
 
 ### Install the packages
 
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-```bash
-yarn add react-app-rewired  react-app-rewire-alias --dev
-```
+<Tabs>
+  <TabItem value="yarn" label="Yarn" default>
+    ```bash
+        yarn add --dev react-app-rewired  react-app-rewire-alias
+    ```
+  </TabItem>
+  <TabItem value="npm" label="npm">
+    ```bash
+      npm install --save-dev react-app-rewired  react-app-rewire-alias
+    ```
+  </TabItem>
+</Tabs>
 
-The ```--dev``` indicates we only want to add these packages to the development dependencies, the App build will not 
+
+The ```--dev```/```--save-dev``` indicates we only want to add these packages to the development dependencies, the App build will not 
 need them.
 
 ### Add configuration
@@ -132,7 +143,7 @@ import FileStructure from '../../../static/img/03-structure-your-code/new-file-s
 <img
 src={FileStructure}
 alt="file structure"
-width="400"/>
+width="300"/>
 
 Last change before we can test if our alias is working.
 
@@ -164,6 +175,8 @@ and replace on each line ```react-scripts``` with ```react-app-rewired```. The r
 
 restart the development server ```ctrl-c``` and ```yarn start```. The development server will now be started by the
 rewired package first after which our create-react-app scripts are called.
+
+### Test it
 
 Now we can try if our alias configuration works.
 

@@ -31,7 +31,6 @@ self explanatory, intuitive and simple.
 public
 src
  |- assets
- |    - fonts
  |    - images
  | 
  |- components
@@ -75,7 +74,7 @@ How to set this up is explained in the [Code](/build-a-pwa/structure-your-code/c
 
 ### assets
 
-The ```assets``` folder contains static files your app uses, like images and font files. 
+The ```assets``` folder contains static files your app uses like images. 
 
 Although an option is to serve these files from the ```public``` folder and declare them where needed throughout
 your code, there are some advantages when organising and importing them in one spot and reuse the same imports 

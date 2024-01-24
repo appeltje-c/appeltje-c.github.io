@@ -11,13 +11,13 @@ if you want your users to enjoy using your app. Making controls and layout intui
 attractive and predictable helps in the adoption of your app. A user does not
 want to study your app, they want to use it.
 
-We want to make our choice for this design early in our project, it helps to have
+We want to make choices for this design early in our project, it helps to have
 a clear and structured guide for building our screens from the start. And its a pain
 to apply design changes later on when we are well on our way with building features.
 
 To avoid having to reinvent the wheel we look for help in successful projects
 where UX designers brought their user experience understanding in interface
-improvements that lift the UX of your app to new heights.
+improvements that lifts the UX of your app to higher levels.
 
 Examples of these projects are [Apple Human Interface](https://developer.apple.com/design/)
 Guidelines, [Microsoft fluent](https://fluent2.microsoft.design/),
@@ -49,12 +49,12 @@ they offer guidelines for interaction, typography, grids, space, scale, color,
 and imagery.
 
 The design system provides the structure to create intentional designs with interaction
-best practices, responsive layouts and an awesome look & feel.
+best practices, responsive layouts and a solid look & feel.
 
 ## Material UI
 
 As Google Material Design itself is not suitable to apply in a React app as-is,
-we make use of a library that implements the Material design in React components
+we make use of a library that implements Material design in React components
 called [Material UI](https://mui.com/material-ui)
 
 import MaterialUI from '../../../static/img/04-design/material-ui.png';

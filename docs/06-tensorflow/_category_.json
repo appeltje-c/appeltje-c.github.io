@@ -1,8 +1,8 @@
 {
-  "label": "Connectivity",
+  "label": "Tensorflow",
   "collapsible": true,
   "link": {
     "type": "generated-index",
-    "title": "Connectivity"
+    "title": "Tensorflow"
   }
 }
