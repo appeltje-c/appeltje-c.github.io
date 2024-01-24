@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[1205],{740:e=>{e.exports=JSON.parse('{"title":"Connectivity\xcf","slug":"/category/connectivity","permalink":"/category/connectivity","navigation":{"previous":{"title":"Read","permalink":"/web-graphics/the-layers/read"},"next":{"title":"Intro","permalink":"/connectivity/intro"}}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[4881],{7418:e=>{e.exports=JSON.parse('{"title":"Webassembly","slug":"/category/webassembly-1","permalink":"/category/webassembly-1","navigation":{"previous":{"title":"Intro","permalink":"/connectivity/intro"},"next":{"title":"Intro","permalink":"/webassembly/intro"}}}')}}]);

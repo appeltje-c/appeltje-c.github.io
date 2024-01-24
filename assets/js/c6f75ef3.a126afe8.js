@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[3077],{1946:e=>{e.exports=JSON.parse('{"title":"Build a RESTful API","slug":"/category/build-a-restful-api","permalink":"/category/build-a-restful-api","navigation":{"previous":{"title":"code","permalink":"/build-a-pwa/deployment/code"},"next":{"title":"Intro","permalink":"/restful-api/intro"}}}')}}]);
