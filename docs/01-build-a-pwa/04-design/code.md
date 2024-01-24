@@ -224,11 +224,12 @@ we already install Roboto.
 
 I like the [Outfit](https://fontsource.org/fonts/outfit) font, it's a dynamic and a bit informal font.
 
-We are going to add the font variant instead of the static version. These variable fonts allow designers and developers
+We are going to add the "variable font" instead of the static version. These variable fonts allow designers and
+developers
 to use a single font file that contains multiple variations of the same font with as different weights, widths, and
 styles. This helps to get smaller file sizes and more flexible design options.
 
-So we install the variable font of outfit (or any of the fonts you may have chosen).
+So we install the variable font of Outfit (or any of the fonts you may have chosen).
 
 <Tabs>
   <TabItem value="yarn" label="Yarn" default>
@@ -249,7 +250,8 @@ theme configuration.
 ```typescript title="@styles/index.ts"
 palette: {
     // ... palette options  
-},
+}
+,
 typography: {
     fontFamily: ['Outfit Variable'].join(',')
 }
@@ -262,23 +264,24 @@ placeholder text should now be displayed in the font of your choice!
 ### Layout Components
 
 We are progressing nicely with the setup of the standard elements that we will be using throughout the lifecycle of our
-App. Until now we only have a 'lost and lonely' TextField in our App which is not very useful and does not look that 
+App. Until now we only have a 'lost and lonely' TextField in our App which is not very useful and does not look that
 good.
 
-Let's create our first custom components that can provide a 'default' layout we can build upon. You can choose this 
-layout as you see fit of course, to help you along we will create a Top and Bottom Menu similar as you might have seen in 
-other Apps and serving as a starting point for the menu items that navigate through our App.       
+Let's create our first custom components that can provide a 'default' layout we can build upon. You can choose this
+layout as you see fit of course, to help you along we will create a Top and Bottom Menu similar as you might have seen
+in
+other Apps and serving as a starting point for the menu items that help users navigate our App.
 
-There are two main components we will create now, let's call them Top Bar and Bottom Menu.  
+There are two main components we will create now, let's call them Top Bar and Bottom Menu.
 
 Create a folder ```layout``` in ```@components```. This folder serves as the grouping of all the reusable layout
 elements for our App. Go ahead and create two new files in this new folder, ```TopBar.tsx``` and ```BottomMenu.tsx```
 
-#### Top Bar
+#### <u>Top Bar</u>
 
 In the ```TopBar.tsx``` we add this code. Next we will walk through what we added in this file.
 
-```typescript jsx
+```typescript jsx title="@components/layout/TopBar.tsx"
 import React from 'react'
 import MenuIcon from '@mui/icons-material/Menu'
 import AccountIcon from '@mui/icons-material/AccountCircle'
@@ -294,7 +297,7 @@ function TopBar() {
                         <MenuIcon/>
                     </IconButton>
                     <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
-                        Appeltje
+                        Appeltje-C
                     </Typography>
                     <IconButton>
                         <AccountIcon/>
@@ -308,9 +311,73 @@ function TopBar() {
 export default TopBar
 ```
 
-#### Bottom Menu
+We created a simple App header with the help of some Material UI components:
 
-```typescript jsx
+> <b>[Box](https://mui.com/system/react-box/)</b>
+>
+> The Box component is an often used layout component. To make our screens we will most often use a Grid layout, which
+> we will discuss in detail later. Layout components like Box, Container and Grid help us to position things on screen.
+> They are of vital importance to be able to create a clean, solid and responsive layout.
+
+> <b>[AppBar](https://mui.com/material-ui/react-app-bar)</b>
+>
+> The AppBar is a multi purpose component that usually sits at the top of the screen. It can provide content and actions
+> related to the current screen, you can use it for branding, showing screen titles and navigation.
+
+> <b>[Toolbar](https://mui.com/material-ui/api/toolbar)</b>
+>
+> The Toolbar is a helper component that aids in adding options in screen the AppBar such as buttons, menu's and
+> avatars. Here we added a menu, the App title and a user avatar in the Toolbar.
+
+> <b>[IconButton](https://mui.com/material-ui/react-button/#icon-button)</b>
+>
+> As a variant to the standard button we can also use icon buttons which helps making cleaner menu's without labels
+> where useful.
+
+> <b>[Typography](https://mui.com/material-ui/react-typography)</b>
+>
+> To have your content scale and look consistent it is a good idea to use the Typography component. I used it here to
+> add my github handle/nick in the title bar as App title.
+
+Now go ahead and replace the contents in your ```@components/App.tsx``` file with this code
+
+```typescript jsx title="@components/App.tsx"
+import React from 'react';
+import theme from "@styles";
+import {ThemeProvider, CssBaseline} from "@mui/material";
+import TopBar from "@components/layout/TopBar";
+
+function App() {
+    return (
+        <ThemeProvider theme={theme}>
+            <CssBaseline>
+                <TopBar/>
+            </CssBaseline>
+        </ThemeProvider>
+    );
+}
+
+export default App;
+```
+
+And a hot reload brings us this beauty!
+
+import TopMenu from '../../../static/img/04-design/top-menu.png';
+
+<img
+src={TopMenu}
+alt="top menu"
+width="400"/>
+
+Agreed, there is plenty of room for improvements 😁
+
+Let's add the Bottom Menu as well.
+
+#### <u>Bottom Menu</u>
+
+Open the ```BottomMenu.tsx``` and add this code
+
+```typescript jsx title="@components/layout/BottomMenu.tsx"
 import React, {useState} from 'react'
 import HomeIcon from '@mui/icons-material/Home'
 import PlaceIcon from '@mui/icons-material/Place'
@@ -340,12 +407,37 @@ function BottomMenu() {
 export default BottomMenu
 ```
 
+And add it to our ```App.tsx```
 
-https://styled-components.com/
-https://emotion.sh/docs/introduction
+```typescript jsx title="@components/App.tsx"
+import React from 'react';
+import theme from "@styles";
+import {ThemeProvider, CssBaseline} from "@mui/material";
+import TopBar from "@components/layout/TopBar";
+import BottomMenu from "@components/layout/BottomMenu";
 
-## Animations
+function App() {
+    return (
+        <ThemeProvider theme={theme}>
+            <CssBaseline>
+                <TopBar/>
+                <BottomMenu/>
+            </CssBaseline>
+        </ThemeProvider>
+    );
+}
 
-https://www.framer.com/motion/
+export default App;
+```
 
+import AppLayout from '../../../static/img/04-design/app-layout.png';
 
+<img
+src={AppLayout}
+alt="app layout"
+width="400"/>
+
+Looking good! We now have a 'sticky' navigation menu sitting at the bottom of our App as well. It looks pretty 
+clean and check out the transition animations on the buttons, look pretty 'Appy' I would say 🚀
+
+The buttons do not navigate anywhere yet, let's dive into that with adding Routing in the next chapter.
