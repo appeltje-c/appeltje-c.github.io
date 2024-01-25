@@ -70,6 +70,25 @@ import logo from '../../assets/images/logo.svg'
 
 How to set this up is explained in the [Code](/build-a-pwa/structure-your-code/code) section.
 
+## Export Barrels
+
+Using “Export Barrel” for Module Organization
+
+index file with
+```typescript jsx
+export * from './Button'
+export * from './Icon'
+export * from './Input'
+```
+
+so we can use
+
+```typescript jsx
+import { Button, Icon, Input } from '@components'
+```
+
+https://medium.com/@renanolovics/10-best-practices-in-front-end-development-react-5277a671e2df
+
 ## Folders explained
 
 ### assets
