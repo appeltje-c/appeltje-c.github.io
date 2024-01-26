@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[344],{4394:e=>{e.exports=JSON.parse('{"title":"Linear Algebra","slug":"/category/linear-algebra","permalink":"/category/linear-algebra","navigation":{"previous":{"title":"Intro","permalink":"/tensorflow/intro"},"next":{"title":"Chapter 1 - Essence of linear algebra","permalink":"/linear-algebra/intro"}}}')}}]);

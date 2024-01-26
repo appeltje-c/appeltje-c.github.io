@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-linear-algebra/intro" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.0">
+<title data-rh="true">Chapter 1 - Essence of linear algebra | Appeltje-C</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://appeltje-c.github.io/linear-algebra/intro"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Chapter 1 - Essence of linear algebra | Appeltje-C"><meta data-rh="true" name="description" content="transcribed"><meta data-rh="true" property="og:description" content="transcribed"><link data-rh="true" rel="canonical" href="https://appeltje-c.github.io/linear-algebra/intro"><link data-rh="true" rel="alternate" href="https://appeltje-c.github.io/linear-algebra/intro" hreflang="en"><link data-rh="true" rel="alternate" href="https://appeltje-c.github.io/linear-algebra/intro" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Appeltje-C RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Appeltje-C Atom Feed">
+
+
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6P1FC1HQPQ"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-6P1FC1HQPQ",{anonymize_ip:!0})</script><link rel="stylesheet" href="/assets/css/styles.1a083ffb.css">
+<script src="/assets/js/runtime~main.5c6d8f67.js" defer="defer"></script>
+<script src="/assets/js/main.2db5fd05.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard" data-theme="light">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">Appeltje-C</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/">Docs</a><a class="navbar__item navbar__link" href="/blog">Blog</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/appeltje-c" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="navbarSearchContainer_Bca1"><div class="dsla-search-wrapper"><div class="dsla-search-field" data-tags="default,docs-default-current"></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/">Hello 👋🏽</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" aria-expanded="false" href="/category/build-a-pwa">Build a PWA</a><button aria-label="Expand sidebar category &#x27;Build a PWA&#x27;" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" aria-expanded="false" href="/category/build-a-restful-api">Build a RESTful API</a><button aria-label="Expand sidebar category &#x27;Build a RESTful API&#x27;" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" aria-expanded="false" href="/category/web-graphics">Web Graphics</a><button aria-label="Expand sidebar category &#x27;Web Graphics&#x27;" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" aria-expanded="false" href="/category/connectivity">Connectivity</a><button aria-label="Expand sidebar category &#x27;Connectivity&#x27;" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" aria-expanded="false" href="/category/webassembly">Webassembly</a><button aria-label="Expand sidebar category &#x27;Webassembly&#x27;" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" aria-expanded="false" href="/category/tensorflow">Tensorflow</a><button aria-label="Expand sidebar category &#x27;Tensorflow&#x27;" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" aria-expanded="true" href="/category/linear-algebra">Linear Algebra</a><button aria-label="Collapse sidebar category &#x27;Linear Algebra&#x27;" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/linear-algebra/intro">Chapter 1 - Essence of linear algebra</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/category/linear-algebra"><span itemprop="name">Linear Algebra</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Chapter 1 - Essence of linear algebra</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><h1>Chapter 1 - Essence of linear algebra</h1>
+<blockquote>
+<p>transcribed
+by <a href="https://www.linkedin.com/in/martijn-benjamin/" target="_blank" rel="noopener noreferrer">Martijn Benjamin</a> (<a href="https://github.com/appeltje-c" target="_blank" rel="noopener noreferrer">appeltje-c</a>)
+from the &quot;Essence of Algebra&quot; <a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" target="_blank" rel="noopener noreferrer">Video Series</a></p>
+<p><a href="https://www.youtube.com/watch?v=fNk_zzaMoSs" target="_blank" rel="noopener noreferrer">Vectors | Chapter 1, Essence of linear algebra</a></p>
+</blockquote>
+<p>Working in 3D space involves understanding linear algebra:</p>
+<p>&quot;Linear algebra is the branch of mathematics concerning linear equations&quot;</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="vector">Vector<a href="#vector" class="hash-link" aria-label="Direct link to Vector" title="Direct link to Vector">​</a></h2>
+<p>The fundamental root-of-it-all building block in linear algebra is the Vector.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-a-vector-is">What a Vector is<a href="#what-a-vector-is" class="hash-link" aria-label="Direct link to What a Vector is" title="Direct link to What a Vector is">​</a></h3>
+<p>There are three distinct ideas about what a vector is:</p>
+<blockquote>
+<b>Physics perspective</b>
+<p>Vectors are arrows pointing in space. The vector is defined by its length and the direction it is pointing. As long as
+these two facts stay the same it is the same vector, wherever you move it around.
+Vectors in the flat plane a two-dimensional and those sitting in broader space are three-dimensional.</p>
+</blockquote>
+<blockquote>
+<b>Computer science perspective</b>
+<p>Vectors are ordered lists of numbers. In other words, in this context, a vector is simply the name for list and the
+length of the list gives it it&#x27;s dimensions. A list of two numbers is a 2 dimensional vector.</p>
+</blockquote>
+<blockquote>
+<b>Mathematical perspective</b>
+<p>Generalizes both these physics and computer science views, basically saying that a vector can be anything where
+there&#x27;s a sensible notion of adding two vectors and multiplying a vector by a number.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="coordinate-system">Coordinate System<a href="#coordinate-system" class="hash-link" aria-label="Direct link to Coordinate System" title="Direct link to Coordinate System">​</a></h2>
+<p>In linear algebra with geometry in mind we can think of a vector as an arrow inside a coordinate system (an xy-plane)
+with the start of the vector sitting at the origin (0,0). In linear algebra it is almost always the case that the
+vector will be rooted at the origin.
+To translate these arrows in space to the list of numbers point of view we use the coordinates of the vector.</p>
+<!-- -->
+<img src="/assets/images/image-1-879d2f28fb1122eac5c0d99c0d2aa271.png" alt="image 1" width="400">
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="axis--grid">Axis &amp; Grid<a href="#axis--grid" class="hash-link" aria-label="Direct link to Axis &amp; Grid" title="Direct link to Axis &amp; Grid">​</a></h3>
+<p>The coordinate system consists of a horizontal line called the x-axis and a vertical line called the y-axis. The place
+where they intersect is called the origin (the center of space, the root of all vectors. We add tick marks with the
+same distance (of choice) on each axis. You can draw lines from these tick marks to create a 2D grid.</p>
+<p>Grid with tick marks of chosen distance</p>
+<!-- -->
+<img src="/assets/images/image-2-3fc7a0461905debd6f32807bd12fc443.png" alt="image 2" width="400">
+<p>Extended with gridlines</p>
+<!-- -->
+<img src="/assets/images/image-3-59e42a83e10f1f55ffef3dcc6251a6c2.png" alt="image 3" width="400">
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="coordinate-number-pairs">Coordinate number pairs<a href="#coordinate-number-pairs" class="hash-link" aria-label="Direct link to Coordinate number pairs" title="Direct link to Coordinate number pairs">​</a></h3>
+<p>The coordinates of a vector is a pair of numbers that tell you how to get from the origin to the tip. The first number
+tells you how far to move on the x-axis with positive moving to the right and negative numbers moving to the left.
+The second how far on the y-axis with positive numbers moving up and negative numbers moving down.</p>
+<!-- -->
+<img src="/assets/images/image-4-fd28db57ec364c62d5a6bae72d32968d.png" alt="image 4" width="400">
+<p>To distinguish vectors from points we write this pair of number vertically with square brackets around them. Every pair
+of numbers gives you one and only one vector and every vector is associated with one and only one pair of numbers.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-dimensions">3 Dimensions<a href="#3-dimensions" class="hash-link" aria-label="Direct link to 3 Dimensions" title="Direct link to 3 Dimensions">​</a></h3>
+<p>With three dimensions you add a third axis called the z-axis which is perpendicular to both the x and y axis for which
+we associate the vector with an ordered triplet of numbers. The first for the x-axis, the second the y-axis and the
+third the z-axis. Also here, every triplet of numbers gives you one unique vector in space and every vector in space
+gives you exactly one triplet of numbers.</p>
+<!-- -->
+<img src="/assets/images/image-5-47a85703e0748e69468df34b64539400.png" alt="image 5" width="400">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="linear-algebra-operations">Linear algebra operations<a href="#linear-algebra-operations" class="hash-link" aria-label="Direct link to Linear algebra operations" title="Direct link to Linear algebra operations">​</a></h2>
+<p>Every topic in linear algebra centers around vector addition and multiplication by numbers</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vector-addition">Vector Addition<a href="#vector-addition" class="hash-link" aria-label="Direct link to Vector Addition" title="Direct link to Vector Addition">​</a></h3>
+<p>In the next image you see two vectors, one pointing up and a little to the right and the other one pointing right and
+down a bit.</p>
+<p>To add these two vectors, move one vector so that it&#x27;s origin moves on to the tip of the other. Drawing a
+line from the origin to the new tip location of the vector you moved is the sum of the two vectors.</p>
+<!-- -->
+<img src="/assets/images/image-6-aabaf59175c2b5e7cd8b558b7affaecf.png" alt="image 6" width="400">
+<p>This definition of addition is to only time in linear algebra where we let vectors be moved away from their origin.</p>
+<p>Why do we define addition of vectors this way? Why do we not for example add the two tips of the vectors without
+moving them?</p>
+<!-- -->
+<img src="/assets/images/image-7-149921b7781d743c42e73eb49c5392d3.png" alt="image 7" width="400">
+<p>The way we can think about this is that each vector represents a certain movement in space, a step with a certain
+distance and direction in space.</p>
+<!-- -->
+<img src="/assets/images/image-8-9e9221853d050245d7482164fb4ba88d.png" alt="image 8" width="300">
+<img src="/assets/images/image-9-29cbd1ddd59a3e4be4517e42e6f83efd.png" alt="image 9" width="300">
+<img src="/assets/images/image-10-2f8bdfead69241b98c980f6f624f6fec.png" alt="image 10" width="300">
+<p>If you take a step along the first vector and then take a step in the direction and distance described by the
+second vector the overall effect is the same as if you moved along the sum of those two vectors.</p>
+<!-- -->
+<img src="/assets/images/image-11-fd8bcef17f8ef989d83189bbbdad91be.png" alt="image 11" width="300">
+<img src="/assets/images/image-12-466e8c8d1952755038c02b647228b85e.png" alt="image 12" width="300">
+<img src="/assets/images/image-13-cbde94dfed0e7e055f472e72eb42ca08.png" alt="image 13" width="300">
+<p>You can think of this as an extension of how we think about adding numbers on a number line.</p>
+<p>One way we teach about this, say with 2 plus 5, is to think of moving two steps to the right followed by another five
+steps to the right. The overall effect is the same if you took seven steps to the right.</p>
+<!-- -->
+<img src="/assets/images/image-14-068c0cdd13b5da5a27e774bc40d21337.png" alt="image 14" width="500">
+<p>Let&#x27;s look at how vector addition looks numerically.</p>
+<p>The first vector has coordinates 1, 2
+The second vector has coordinates 3, negative 1</p>
+<!-- -->
+<!-- -->
+<img src="/assets/images/image-15-d54461db9b5b02470984e7ae84704c64.png" alt="image 15" width="500">
+<p>When you take the vector sum using the tip to tail method you can think of a four-step path from the origin to the tip
+of the second vector.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/appeltje-c/appeltje-c.github.io/tree/main/docs/07-linear-algebra/01-intro.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/category/linear-algebra"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Linear Algebra</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#vector" class="table-of-contents__link toc-highlight">Vector</a><ul><li><a href="#what-a-vector-is" class="table-of-contents__link toc-highlight">What a Vector is</a></li></ul></li><li><a href="#coordinate-system" class="table-of-contents__link toc-highlight">Coordinate System</a><ul><li><a href="#axis--grid" class="table-of-contents__link toc-highlight">Axis &amp; Grid</a></li><li><a href="#coordinate-number-pairs" class="table-of-contents__link toc-highlight">Coordinate number pairs</a></li><li><a href="#3-dimensions" class="table-of-contents__link toc-highlight">3 Dimensions</a></li></ul></li><li><a href="#linear-algebra-operations" class="table-of-contents__link toc-highlight">Linear algebra operations</a><ul><li><a href="#vector-addition" class="table-of-contents__link toc-highlight">Vector Addition</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/appeltje-c" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/appeltje-c" target="_blank" rel="noopener noreferrer" class="footer__link-item">Sandbox<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Appeltje-C. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[6602],{6020:e=>{e.exports=JSON.parse('{"title":"Webassembly","slug":"/category/webassembly","permalink":"/category/webassembly","navigation":{"previous":{"title":"Code","permalink":"/build-a-pwa/localization/code"},"next":{"title":"Read","permalink":"/build-a-pwa/webassembly/read"}}}')}}]);

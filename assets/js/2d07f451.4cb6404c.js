@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8361],{1328:e=>{e.exports=JSON.parse('{"title":"Service Worker","slug":"/category/service-worker","permalink":"/category/service-worker","navigation":{"previous":{"title":"Code","permalink":"/build-a-pwa/routing/code"},"next":{"title":"Read","permalink":"/build-a-pwa/service-worker/read"}}}')}}]);
