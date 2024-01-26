@@ -43,3 +43,18 @@ https://rustlings.cool/
 
 Make Tutorial based on this:
 https://wasmbyexample.dev/home.en-us.html
+
+
+
+
+Config override to use wasm in create-react-app
+
+https://stackoverflow.com/questions/59319775/how-to-use-webassembly-wasm-with-create-react-app
+
+
+WASM in React
+
+https://codeburst.io/getting-started-with-react-and-webassembly-using-hooks-441818c91608
+
+
+

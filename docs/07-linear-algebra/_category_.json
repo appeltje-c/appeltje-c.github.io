@@ -1,8 +1,8 @@
 {
-  "label": "Webassembly",
+  "label": "Linear Algebra",
   "collapsible": true,
   "link": {
     "type": "generated-index",
-    "title": "Webassembly"
+    "title": "Linear Algebra"
   }
 }
