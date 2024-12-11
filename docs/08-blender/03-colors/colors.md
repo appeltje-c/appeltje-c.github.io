@@ -3,6 +3,13 @@
 Watch
 https://www.youtube.com/watch?v=Komry1kruHs
 
+Color theory
+https://www.udemy.com/course/color-theory-hitt-nichols/
+
+https://www.youtube.com/watch?v=Komry1kruHs
+
+https://www.colormatters.com/color-and-design/basic-color-theory
+
 
 Choosing colors for your low-poly Blender models is crucial for setting the mood, ensuring visual clarity, and enhancing the overall aesthetic of your creations. Here’s a step-by-step guide to help you select and implement colors effectively:
 

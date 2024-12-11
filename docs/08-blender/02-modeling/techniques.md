@@ -31,7 +31,12 @@ T       : Modeling tools
 Alt+E   : Extrude Menu
 Shift+R : Repeat last action
 
+## Selecting
 
+Ctrl+B      : Box select
+Crtl+Click  : Select all between selected and clicked
+Ctrl+L      : Select all connected
+Shift+S     : Cursor placement selection menu
 
 ## Making Pipes 
 
@@ -81,7 +86,11 @@ Voila, there you have your pipe
 ## Cut parts of a mesh
 
 
-## 
+## Using repeaters
+
+## Using curbs
+
+
 
 
 
