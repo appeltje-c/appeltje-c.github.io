@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[7875],{4410:e=>{e.exports=JSON.parse('{"title":"Blender","slug":"/category/blender","permalink":"/category/blender","navigation":{"previous":{"title":"Chapter 1 - Essence of linear algebra","permalink":"/linear-algebra/intro"},"next":{"title":"Intro","permalink":"/blender/intro"}}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[2544],{9071:e=>{e.exports=JSON.parse('{"title":"Colors","slug":"/category/colors","permalink":"/category/colors","navigation":{"previous":{"title":"Techniques","permalink":"/blender/modeling/techniques"},"next":{"title":"colors","permalink":"/blender/colors/colors"}}}')}}]);
