@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[7521],{8906:e=>{e.exports=JSON.parse('{"title":"Baking a Scene","slug":"/category/baking-a-scene","permalink":"/category/baking-a-scene","navigation":{"previous":{"title":"colors","permalink":"/blender/colors/colors"},"next":{"title":"Baking a scene","permalink":"/blender/baking-a-scene/baking"}}}')}}]);
