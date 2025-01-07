@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Appeltje-C',
   tagline: 'Making coffee and code',
-  
+
   // Set the production url of your site here
   url: 'https://appeltje-c.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -143,6 +143,12 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Docs',
+        },
+        {
+          type: 'custom-myTools',
+          sidebarId: 'mytoolsSidebar',
+          position: 'left',
+          label: 'Tools',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {

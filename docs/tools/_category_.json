@@ -1,0 +1,8 @@
+{
+  "label": "Tools",
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Tools"
+  }
+}
