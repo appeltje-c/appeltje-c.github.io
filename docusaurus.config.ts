@@ -150,7 +150,6 @@ const config: Config = {
           position: 'left',
           label: 'Tools',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/appeltje-c',
           label: 'GitHub',

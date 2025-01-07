@@ -1,8 +1,4 @@
----
-slug: /tools
----
-
-# Curvature
+# Intro
 
 I built this tool to help me create motion paths for camera's.
 
@@ -11,3 +7,5 @@ You can load your model, create a path around your model and export the path vec
 Click below to use the editor 👇
 
 [Curvatur Editor](https://appeltje-c.github.io/tools/curvature/index.html)
+
+More docs ...
