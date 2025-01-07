@@ -6,4 +6,4 @@ sidebar_position: 1
 
 Here you find my collection of tools.
 
-[Curvatur Editor](https://appeltje-c.github.io/tools/curvature/index.html) | [Curvature Docs](./02-curvature/curvature.md)
+[Curvatur Editor](https://appeltje-c.github.io/tools/curvature/index.html) | [Curvature Docs](./02-curvature/01-intro.md)

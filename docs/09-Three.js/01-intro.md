@@ -1,5 +1,3 @@
-
-
 # Intro
 
 > Written by
@@ -8,4 +6,4 @@
 
 ## Create text in Three.js
 
-https://protectwise.github.io/troika/troika-three-text/
+[Troika Text](https://protectwise.github.io/troika/troika-three-text/)
