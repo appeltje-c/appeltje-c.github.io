@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Appeltje-C',
-  tagline: 'Open Source is cool',
+  tagline: 'Making coffee and code',
   
   // Set the production url of your site here
   url: 'https://appeltje-c.github.io',
